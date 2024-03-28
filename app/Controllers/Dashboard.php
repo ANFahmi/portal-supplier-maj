@@ -143,6 +143,7 @@ class Dashboard extends BaseController
             $data['jumlah_GR'] = 0;
             $data['jumlah_non_GR'] = 0;
         }
+        //Respon JSON//
         echo json_encode($data); // Keluarkan respons JSON tunggal dari server
     }
 }
